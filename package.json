@@ -1,13 +1,17 @@
 {
   "name": "event-ag",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Typed event aggregator implementation for Typescript.",
+  "keywords": ["pub sub", "event aggregator", "typescript", "typed"],
+  "homepage": "https://github.com/kye44/event-ag",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
+  "bugs": {
+    "url": "https://github.com/kye44/event-ag/issues"
+  },
   "scripts": {
     "build": "npx tsc"
   },
-  "keywords": [],
   "author": "Kye Purkis",
   "license": "ISC",
   "devDependencies": {
